@@ -26,5 +26,17 @@ Docker is a high level runtime means it uses containerD as a base and provides a
 ![alt text](image.png)
 
 
+Concept of container:
+
+1.) container is not like OS. where we can start or stop a container or SSH into it. there is no concept of SSH into the container. 
+2.) container will run a single process.
+3.) so as mentioned we cannot start or stop a container. 
+4.) so whenever we run a container a brand new container will run and after completing the task the container will die.
+5.) to differentiate a container with other container we use container ID.
+6.) Images are used to create container. (images = AMI and containers = Ec2 instances)
+7.) we can create containers as per our requirement.
+
+
+
 
 
