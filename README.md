@@ -36,7 +36,20 @@ Concept of container:
 6.) Images are used to create container. (images = AMI and containers = Ec2 instances)
 7.) we can create containers as per our requirement.
 
+how to get the image:
+
+docker pull <image-name>
+docker images - shows all the images present in the system.
 
 
+Docker images command output: this shows the version of the image and from where it downloaded and how old the version that we are using is.
+
+REPOSITORY               TAG         IMAGE ID      CREATED      SIZE
+docker.io/library/nginx  latest      7f553e8bbc89  11 days ago  196 MB
+
+you can remove a image when there are containers running using that image. so first end the containers and then remove the image, 
+
+
+docker run -d <image-name> this will run the container in dettached home. means the container will be running in the background.
 
 
