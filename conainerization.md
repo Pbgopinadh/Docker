@@ -52,8 +52,13 @@ dangling images.
 
 just stopping a container wont suffice we have to delete it using the docker rm <container-ID> command for the removal of the image.
 
+docker exec -it <container-ID> bash
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+In linux, a process can have a parent process. means killing the parent process can kill all the child process assiocated with it.
+
+how to see the parent and child process: ps -ef will show what is the parent process for a child process.
 
 
 

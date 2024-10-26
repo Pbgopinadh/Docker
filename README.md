@@ -25,7 +25,6 @@ Docker is a high level runtime means it uses containerD as a base and provides a
 
 ![alt text](image.png)
 
-
 Concept of container:
 
 1.) container is not like OS. where we can start or stop a container or SSH into it. there is no concept of SSH into the container. 
@@ -49,10 +48,9 @@ docker.io/library/nginx  latest      7f553e8bbc89  11 days ago  196 MB
 
 you can remove a image when there are containers running using that image. so first end the containers and then remove the image, 
 
+docker run -d <image-name> this will run the container in dettached mode. means the container will be running in the background.
 
-docker run -d <image-name> this will run the container in dettached home. means the container will be running in the background.
-
-Conternization:
+Conternization: 
 
 
 
