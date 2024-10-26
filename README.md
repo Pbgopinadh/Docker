@@ -52,4 +52,8 @@ you can remove a image when there are containers running using that image. so fi
 
 docker run -d <image-name> this will run the container in dettached home. means the container will be running in the background.
 
+Conternization:
+
+
+
 
